@@ -1,32 +1,40 @@
-SQL Challenge: Pewlett Hackard Employee Database Analysis
+# Employee Database Analysis
 
-As a new data engineer at Pewlett Hackard, the task is to conduct a research project on employees who were employed during the 1980s and 1990s. The employee database from that period consists of six CSV files. The project involves data modeling, data engineering, and data analysis to answer questions about the data.
+In this project, we will be working with a fictional company called Pewlett Hackard to analyze employee data from the 1980s and 1990s. The goal is to perform data modeling, data engineering, and data analysis tasks using SQL.
 
-Data Modeling:
 
-Inspected the CSV files and sketched an Entity Relationship Diagram (ERD) of the tables using tools like QuickDBD.
-Ensured the ERD includes all necessary tables and relationships.
+It has been two weeks since I've been hired as a new data engineer at Pewlett Hackard. My first major task is to conduct a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
-Data Engineering:
 
-Created table schemas for each CSV file, specifying data types, primary keys, foreign keys, and other constraints.
-Imported each CSV file into its corresponding SQL table in the correct order, handling foreign keys appropriately.
-Data Analysis:
+The work is divided into three parts: data modeling, data engineering, and data analysis.
 
-List employee number, last name, first name, sex, and salary of each employee.
-List first name, last name, and hire date for employees hired in 1986.
-List the manager of each department with department number, department name, employee number, last name, and first name.
-List department number for each employee along with employee number, last name, first name, and department name.
-List first name, last name, and sex of employees named Hercules with last names starting with the letter B.
-List each employee in the Sales department, including employee number, last name, and first name.
-List employees in the Sales and Development departments, including employee number, last name, first name, and department name.
-List the frequency counts of all employee last names in descending order.
+## Data Modeling
+Inspect CSV files: Inspect the CSV files provided and sketch an Entity Relationship Diagram (ERD) of the tables. You can use tools like QuickDBD for this purpose.
+<img width="1307" alt="Screenshot 2024-03-30 at 12 13 08 PM" src="https://github.com/Vfdelgado/SQL_Challenge/assets/146504714/542c92df-4b3d-448e-aabf-f95d96c30690">
 
-Results:
 
-Data modeling: An Entity Relationship Diagram (ERD) was created to visualize table structures and relationships.
-Data engineering: Table schemas were defined for each CSV file, and data was imported into corresponding SQL tables.
-Data analysis: SQL queries were executed to retrieve required information from the database based on specified criteria.
+## Data Engineering
 
-Conclusion:
-The SQL challenge involved designing table schemas, importing data, and performing data analysis on the Pewlett Hackard employee database. By following the instructions and executing SQL queries, insights into employee data from the 1980s and 1990s were obtained, facilitating further analysis and decision-making processes.
+Create table schema: Use the provided information to create a table schema for each of the six CSV files. Be sure to specify data types, primary keys, foreign keys, and other constraints.
+
+Import CSV files: Import each CSV file into its corresponding SQL table.
+
+## Data Analysis
+List employee details: List the employee number, last name, first name, sex, and salary of each employee.
+
+List employees hired in 1986: List the first name, last name, and hire date for employees hired in 1986.
+
+List department managers: List the manager of each department along with their department number, department name, employee number, last name, and first name.
+
+List employee departments: List the department number for each employee along with their employee number, last name, first name, and department name.
+
+Search for specific employees: List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+
+List employees by department: List each employee in the Sales department, including their employee number, last name, and first name.
+
+List employees by multiple departments: List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+
+List frequency counts of employee last names: List the frequency counts, in descending order, of all the employee last names (i.e., how many employees share each last name).
+
+### Resources
+Past class activities, study group with fellow classmates, online resources
